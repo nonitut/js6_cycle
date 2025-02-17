@@ -1,0 +1,37 @@
+.image_container{
+    text-align: center;
+    margin-top: 5%;
+    display: block;
+    position: relative;
+    flex-direction: column;
+}
+
+#image{
+    position: relative;
+    width: 30vw;
+    transition: all 0.3s ease-in-out;
+}
+#changeImg{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: -30%;
+    cursor: pointer;
+    font-size: 2vw;
+    border: none;
+    padding: 1% 4%;
+    border-radius: 5px;
+    background: rgb(255, 198, 214);
+}
+
+.box{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2px;
+    background: lemonchiffon;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw; 
+    line-height: 2vw;
+    display: inline-block;
+    margin: 1%;
+}
